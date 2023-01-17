@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="link.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         body{
             background-image: url('image/home5.jpg');
@@ -27,7 +28,7 @@
             text-decoration: underline;
         }
         a:hover{
-            color: rgb(152, 80, 32);
+            color: rgb(114, 77, 52);
             
             text-decoration: underline;
         }
@@ -39,16 +40,20 @@
     </style>
 </head>
 <body>
-    <h3>please visit</h3>
-    <h1>
-    <a style="color:rgb(44, 136, 44) ;"href="home.html">Home</a>
-    <a style="color:red;" href="temples.html">Temples</a>
-    <a style="color:rgb(92, 3, 92);" href="waterfall.html">Waterfalls and Dams</a>
-    <a style="color:darkblue ;" href="park.html">Parks</a>
-    </h1>
-    <h1 style="color:palevioletred";>Unexplored heaven places in jharkhand</h1>
-    <h2>
-    <marquee width="100%" direction="right" height="100px" speed="15">Welcome to Jharkhand</marquee>
-    </h2>
+    <nav>
+    <ul>
+     <li><a style="color:rgb(40, 36, 117) ;"href="index.html">Home</a></li>
+     <li><a style="color: rgb(77, 65, 209);" href="about.html">About</a></li>
+     <li><a style="color:rgb(53, 61, 143);" href="temples.html">Temples</a></li>
+     <li><a style="color:rgb(41, 35, 122);" href="waterfall.html">Waterfalls and Dams</a></li>
+     <li><a style="color:rgb(54, 54, 123) ;" href="park.html">Parks</a></li>
+    </ul>
+    </nav>
+    <div class="main">
+        <marquee class="marq"
+                 behavior="scroll"
+                 direction="right"
+                 loop="">Welcome to Jharkhand</marquee>
+                 </div>
     </body>
 </html>
